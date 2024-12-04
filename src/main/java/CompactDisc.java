@@ -17,6 +17,7 @@ public class CompactDisc {
             title = input.nextLine();
             artist = input.nextLine();
 
+            //new Song
             cd[i] = new Song (title, artist);
         }
         //Print the classics file
