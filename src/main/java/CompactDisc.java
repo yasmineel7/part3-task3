@@ -8,6 +8,7 @@ public class CompactDisc {
 
         Scanner input = new Scanner(new File("src/main/Classics"));
 
+        //variables
         String title;
         String artist;
 
