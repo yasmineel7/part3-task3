@@ -12,7 +12,7 @@ public class CompactDisc {
         String artist;
 
         //size of arrays
-        Song cd[]= new Song [6];
+        Song[] cd = new Song [6];
         for (int i = 0; i < cd.length; i++) {
             title = input.nextLine();
             artist = input.nextLine();
@@ -22,8 +22,8 @@ public class CompactDisc {
         }
         //Print the classics file
         System.out.println("Contents of Classics:");
-        for (int i = 0; i < cd.length; i++)
-        { System.out.print(cd[i]);
+        for (Song song : cd) {
+            System.out.print(song);
 
 
         }
